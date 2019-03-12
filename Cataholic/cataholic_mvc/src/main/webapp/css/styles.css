@@ -1,0 +1,53 @@
+html, body {
+       height: 100%;
+       margin: 0;
+       padding: 0;
+       width: 100%;
+}
+
+body { 
+  background-color: #e1efbb;
+  font-family: verdana;
+  font-size: 15pt;
+  display: table;
+}
+
+.servlet { 
+  background-color: #ECFAFD;
+  font-family: verdana;
+  font-size: 16pt;
+}  
+.center-block {
+            text-align: center;
+            display: table-cell;
+/*             vertical-align: middle; */
+}
+
+.pageCenter {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1000px;
+	float: none;
+}
+
+
+td { 
+  font-family: verdana;
+  font-size: 14pt;
+} 
+
+legend {
+	font-weight: bold;
+	color: black;
+	background-color: white;
+	border: 1px solid #cccccc;
+	padding: 4px 2px;
+}
+
+fieldset {
+	font-weight: bold;
+	color: black;
+	background-color: #ffffcc;
+	border: 1px solid #cccccc;
+	padding: 4px 2px;
+}

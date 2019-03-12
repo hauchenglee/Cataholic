@@ -1,0 +1,14 @@
+CREATE TABLE `Restaurant` (
+  `restId` 	INT(11) NOT NULL AUTO_INCREMENT,
+  `typeId` 		INT(11) DEFAULT NULL,
+  `name` 		VARCHAR(255) DEFAULT NULL,
+  `phone` 		VARCHAR(255) DEFAULT NULL,
+  `address` 	VARCHAR(255) DEFAULT NULL,
+  `longitude` 	DOUBLE DEFAULT NULL,
+  `latitude` 	DOUBLE DEFAULT NULL,
+  `link` 		VARCHAR(255) DEFAULT NULL,
+  `filename` 	VARCHAR(255) DEFAULT NULL,
+  `picture` 	LONGBLOB ,
+  `comment` 	LONGTEXT ,
+  PRIMARY KEY (`restId`)
+) ENGINE=INNODB DEFAULT CHARSET=UTF8MB4 COLLATE utf8mb4_unicode_520_ci;

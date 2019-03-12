@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgPlaylistItemBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:maxHeight="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/work_03" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/nowTime"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:padding="10dp"
+                android:textColor="#333"
+                android:background="#ddd"
+                android:text="Hello World!" />
+
+            <Button
+                android:id="@+id/btSmokeCat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="30dp"
+                android:text="Smoke Shop" />
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/touchview"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/smallCat001"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/smallcat"
+                android:visibility="invisible" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/smallCat002"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="220dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/smallcat"
+                android:visibility="invisible" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/smallCat003"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/smallcat"
+                android:visibility="invisible" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/smallCat004"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="150dp"
+                android:src="@drawable/smallcat"
+                android:visibility="invisible" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/smallCat005"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="220dp"
+                android:layout_marginTop="150dp"
+                android:src="@drawable/smallcat"
+                android:visibility="invisible" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/smallCat006"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="150dp"
+                android:src="@drawable/smallcat"
+                android:visibility="invisible" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/smallCat007"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="250dp"
+                android:src="@drawable/smallcat"
+                android:visibility="invisible" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/smallCat008"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="250dp"
+                android:src="@drawable/smallcat"
+                android:visibility="invisible" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/smallCat009"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="220dp"
+                android:layout_marginTop="250dp"
+                android:src="@drawable/smallcat"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</FrameLayout>

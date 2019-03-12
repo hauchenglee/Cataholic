@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="120dp"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp">
+
+    <LinearLayout
+        android:id="@+id/itemMCatLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivMCat"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/cat003"
+            android:layout_marginStart="10dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/tvMName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:text="CAT01"
+            android:textColor="#87CEEB"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvMCatGenerate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="工作效率：" />
+
+            <TextView
+                android:id="@+id/tvMCatMoney"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="工作品質：" />
+
+            <TextView
+                android:id="@+id/tvMCatEffectTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="藥效時間：" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvMCatPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20元"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#faa" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

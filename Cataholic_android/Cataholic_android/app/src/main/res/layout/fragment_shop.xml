@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btSmoktCat"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Smokt Cat" />
+
+    <Button
+        android:id="@+id/btAdopt"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Adopt Cat" />
+
+    <Button
+        android:id="@+id/btBuyFood"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Buy Cat Food" />
+
+    <Button
+        android:id="@+id/btManage"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Manage Cats" />
+
+    <Button
+        android:id="@+id/btShopBack"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+
+</LinearLayout>
